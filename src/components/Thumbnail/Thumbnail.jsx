@@ -9,7 +9,7 @@ export const Thumbnail = (props) => {
   const cartItemCount = cartItems[id];
 
   return (
-    <div className="thumbnail">
+    <div className="thumbnail" props={props}>
       <img className="thumbnail-img" src={productImage} alt="Thumbnail" />
       <div className="description">
         <p>{productName}</p>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { ShoppingCart } from "phosphor-react";
 import "./navbar.css";
 
@@ -9,16 +9,20 @@ const Navbar = () => {
       <span className="logo">
         f<span className="logo-AR">AR</span>nitures
       </span>
-      <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/desks">Desks</Link>
-        <Link to="/chairs">Chairs</Link>
-        <Link to="/lamps">Lamps</Link>
-        <Link to="/contact"> Contact </Link>
-        <Link to="/cart">
+      <nav className="links">
+        {/* Link vs NavLink we are getting an active 'class' attribute in the DOM*/}
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/desks">Desks</NavLink>
+        <NavLink to="/chairs">Chairs</NavLink>
+        <NavLink to="/lamps">Lamps</NavLink>
+        <NavLink to="/contact"> Contact </NavLink>
+        <NavLink to="/cart">
           <ShoppingCart size={32} />
-        </Link>
-      </div>
+        </NavLink>
+      </nav>
+      <nav className="links right">
+        <NavLink to="/contact"> Log In </NavLink>
+      </nav>
     </div>
   );
 };

@@ -1,0 +1,10 @@
+{
+  "chairs": [
+    {
+      "id": 1,
+      "productName": "Product Name",
+      "productDescription": "Blah blah blah",
+      "price": 999.0
+    }
+  ]
+}

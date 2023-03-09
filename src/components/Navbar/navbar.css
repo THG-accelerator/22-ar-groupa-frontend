@@ -9,16 +9,20 @@
 .logo {
   justify-content: flex-start;
   color: white;
+  font-size: 30px;
+  margin-left: 10px;
 }
 .logo-AR {
   color: red;
+  font-size: 35px;
 }
 
 .links {
-  margin-right: 50px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: end;
   align-items: center;
+  gap: 15px;
+  margin-left: 25px;
 }
 
 .links a {
@@ -34,4 +38,17 @@
   margin-left: 20px;
   font-size: 25px;
   border: 1px solid white;
+  padding: 5px;
+  border-radius: 15px;
 }
+
+.links a.active {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 15px;
+}
+/* right {
+  justify-content: right;
+} */
