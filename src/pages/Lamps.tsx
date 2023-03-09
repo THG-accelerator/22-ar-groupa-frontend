@@ -1,12 +1,12 @@
 import ThumbnailList from "../components/ThumbnailList/ThumbnailList";
 
-const Desks = () => {
+const Lamps = () => {
   return (
     <div>
-      <h1>Desks</h1>
+      <h1>Lamps</h1>
       <ThumbnailList />
     </div>
   );
 };
 
-export default Desks;
+export default Lamps;

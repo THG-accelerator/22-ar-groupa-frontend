@@ -1,0 +1,40 @@
+.thumbnail {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 300px;
+  height: 350px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail-img {
+  width: 80%;
+  height: 50%;
+}
+
+.thumbnail .description {
+  text-align: center;
+}
+
+.thumbnail:hover {
+  background-color: pink;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.addToCartBttn {
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.addToCartBttn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}

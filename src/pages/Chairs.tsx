@@ -1,11 +1,10 @@
-import React from "react";
-import { ItemList } from "../components/ItemList/ItemList";
+import ThumbnailList from "../components/ThumbnailList/ThumbnailList";
 
 const Chairs = () => {
   return (
     <div>
-      <h1>This is CHAIRS page</h1>
-      <ItemList />
+      <h1>Chairs</h1>
+      <ThumbnailList />
     </div>
   );
 };
