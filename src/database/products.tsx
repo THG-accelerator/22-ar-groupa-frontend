@@ -1,11 +1,11 @@
-import product1 from "../assets/products/1.jpg";
-import product2 from "../assets/products/1.jpg";
-import product3 from "../assets/products/1.jpg";
-import product4 from "../assets/products/1.jpg";
-import product5 from "../assets/products/1.jpg";
-import product6 from "../assets/products/1.jpg";
-import product7 from "../assets/products/1.jpg";
-import product8 from "../assets/products/1.jpg";
+import product1 from "./1.jpg";
+import product2 from "./1.jpg";
+import product3 from "./1.jpg";
+import product4 from "./1.jpg";
+import product5 from "./1.jpg";
+import product6 from "./1.jpg";
+import product7 from "./1.jpg";
+import product8 from "./1.jpg";
 
 export const PRODUCTS = [
   {
