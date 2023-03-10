@@ -1,9 +1,10 @@
 * {
-  color: black;
   margin: 0;
 }
 
-:root {
+/* use this for global CSS variables */
+
+/* :root {
   --primary: #bc4123;
   --secondary: #2b3452;
-}
+} */

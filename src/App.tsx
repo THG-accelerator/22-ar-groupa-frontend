@@ -13,6 +13,7 @@ import { Cart } from "./pages/cart/cart";
 import NotFound from "./pages/NotFound";
 //context logic
 import { ShopContextProvider } from "./context/shop-context";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <Route path=":id" element={<ProductCard />} />
           </Route>
           <Route path="/contact" element={<Contact />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
