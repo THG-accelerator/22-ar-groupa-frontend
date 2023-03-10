@@ -1,6 +1,5 @@
-import React from "react";
-import { Link, NavLink } from "react-router-dom";
-import { ShoppingCart } from "phosphor-react";
+import { NavLink } from "react-router-dom";
+import { RiShoppingCart2Line } from "react-icons/ri";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -21,7 +20,7 @@ const Navbar = () => {
         <NavLink to="/login"> Sign Up </NavLink>
         <NavLink to="/login"> Log In </NavLink>
         <NavLink to="/cart">
-          <ShoppingCart size={32} />
+          <RiShoppingCart2Line size={32} />
         </NavLink>
       </nav>
     </div>
